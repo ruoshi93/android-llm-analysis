@@ -1,0 +1,784 @@
+No.     Time           Source                Destination           Protocol Length ALPN Next Protocol Server Name Info
+    540 56.780524      192.168.31.185        142.250.204.42        QUIC     1292   h3                 www.googleapis.com Initial, DCID=a157b00b08320994, PKN: 2, PING, PING, PING, PADDING, PING, CRYPTO, CRYPTO, PING, PING, PADDING, PING, PADDING, CRYPTO, CRYPTO, CRYPTO, PING, CRYPTO, CRYPTO, PADDING, PING, CRYPTO, PADDING, PING
+
+Frame 540: 1292 bytes on wire (10336 bits), 1292 bytes captured (10336 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 31, 2025 12:49:08.658710000 CST
+    UTC Arrival Time: Aug 31, 2025 04:49:08.658710000 UTC
+    Epoch Arrival Time: 1756615748.658710000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.001043000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 56.780524000 seconds]
+    Frame Number: 540
+    Frame Length: 1292 bytes (10336 bits)
+    Capture Length: 1292 bytes (10336 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:quic:tls]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: Apple_77:27:8e (08:f8:bc:77:27:8e), Dst: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7)
+    Destination: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Apple_77:27:8e (08:f8:bc:77:27:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 192.168.31.185, Dst: 142.250.204.42
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1278
+    Identification: 0xfec8 (65224)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x3ba0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.31.185
+    Destination Address: 142.250.204.42
+    [Stream index: 13]
+User Datagram Protocol, Src Port: 57835, Dst Port: 443
+    Source Port: 57835
+    Destination Port: 443
+    Length: 1258
+    Checksum: 0x7c0e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 12]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 0.001043000 seconds]
+        [Time since previous frame: 0.001043000 seconds]
+    UDP payload (1250 bytes)
+QUIC IETF
+    QUIC Connection information
+        [Connection Number: 2]
+    [Packet Length: 1250]
+    1... .... = Header Form: Long Header (1)
+    .1.. .... = Fixed Bit: True
+    ..00 .... = Packet Type: Initial (0)
+    [.... 00.. = Reserved: 0]
+    [.... ..01 = Packet Number Length: 2 bytes (1)]
+    Version: 1 (0x00000001)
+    Destination Connection ID Length: 8
+    Destination Connection ID: a157b00b08320994
+    Source Connection ID Length: 0
+    Token Length: 0
+    Length: 1232
+    [Packet Number: 2]
+    Payload […]: dadfff30bfbb2f78585d944e32542fc613e1033d14681d27ec516f65748ee2d79168aff4f1e35463eb9bc546e2b79036c85e8931556ab60fa7e9999b706b42e1dcb0a78ecc295f0637d94d762142c24382f50f26e60378e5edf634dd75d4d7e8aff8386a733741d42378c0660e290cbf
+    PING
+        Frame Type: PING (0x0000000000000001)
+    PING
+        Frame Type: PING (0x0000000000000001)
+    PING
+        Frame Type: PING (0x0000000000000001)
+    PADDING Length: 35
+        Frame Type: PADDING (0x0000000000000000)
+        [Padding Length: 35]
+    PING
+        Frame Type: PING (0x0000000000000001)
+    CRYPTO
+        Frame Type: CRYPTO (0x0000000000000006)
+        Offset: 919
+        Length: 9
+        Crypto Data
+    CRYPTO
+        Frame Type: CRYPTO (0x0000000000000006)
+        Offset: 786
+        Length: 55
+        Crypto Data
+    PING
+        Frame Type: PING (0x0000000000000001)
+    PING
+        Frame Type: PING (0x0000000000000001)
+    PADDING Length: 138
+        Frame Type: PADDING (0x0000000000000000)
+        [Padding Length: 138]
+    PING
+        Frame Type: PING (0x0000000000000001)
+    PADDING Length: 80
+        Frame Type: PADDING (0x0000000000000000)
+        [Padding Length: 80]
+    CRYPTO
+        Frame Type: CRYPTO (0x0000000000000006)
+        Offset: 780
+        Length: 6
+        Crypto Data
+    CRYPTO
+        Frame Type: CRYPTO (0x0000000000000006)
+        Offset: 918
+        Length: 1
+        Crypto Data
+    CRYPTO
+        Frame Type: CRYPTO (0x0000000000000006)
+        Offset: 917
+        Length: 1
+        Crypto Data
+    PING
+        Frame Type: PING (0x0000000000000001)
+    CRYPTO
+        Frame Type: CRYPTO (0x0000000000000006)
+        Offset: 57
+        Length: 723
+        Crypto Data
+    CRYPTO
+        Frame Type: CRYPTO (0x0000000000000006)
+        Offset: 841
+        Length: 15
+        Crypto Data
+    PADDING Length: 9
+        Frame Type: PADDING (0x0000000000000000)
+        [Padding Length: 9]
+    PING
+        Frame Type: PING (0x0000000000000001)
+    CRYPTO
+        Frame Type: CRYPTO (0x0000000000000006)
+        Offset: 856
+        Length: 61
+        Crypto Data
+        [16 Reassembled QUIC CRYPTO Data Fragments (1737 bytes): #539(10), #539(47), #540(723), #540(6), #540(55), #540(15), #540(61), #540(1), #540(1), #540(9), #539(29), #539(72), #539(48), #539(17), #539(479), #539(164)]
+            [Frame: 539, payload: 0-9 (10 bytes)]
+            [Frame: 539, payload: 10-56 (47 bytes)]
+            [Frame: 540, payload: 57-779 (723 bytes)]
+            [Frame: 540, payload: 780-785 (6 bytes)]
+            [Frame: 540, payload: 786-840 (55 bytes)]
+            [Frame: 540, payload: 841-855 (15 bytes)]
+            [Frame: 540, payload: 856-916 (61 bytes)]
+            [Frame: 540, payload: 917-917 (1 byte)]
+            [Frame: 540, payload: 918-918 (1 byte)]
+            [Frame: 540, payload: 919-927 (9 bytes)]
+            [Frame: 539, payload: 928-956 (29 bytes)]
+            [Frame: 539, payload: 957-1028 (72 bytes)]
+            [Frame: 539, payload: 1029-1076 (48 bytes)]
+            [Frame: 539, payload: 1077-1093 (17 bytes)]
+            [Frame: 539, payload: 1094-1572 (479 bytes)]
+            [Frame: 539, payload: 1573-1736 (164 bytes)]
+            [Fragment count: 16]
+        TLSv1.3 Record Layer: Handshake Protocol: Client Hello
+            Handshake Protocol: Client Hello
+                Handshake Type: Client Hello (1)
+                Length: 1733
+                Version: TLS 1.2 (0x0303)
+                    [Expert Info (Chat/Deprecated): This legacy_version field MUST be ignored. The supported_versions extension is present and MUST be used instead.]
+                        [This legacy_version field MUST be ignored. The supported_versions extension is present and MUST be used instead.]
+                        [Severity level: Chat]
+                        [Group: Deprecated]
+                Random: 7dae4b7361bc1feac7ebbe6ca525ef2330c5fb58b3cfc8ad0b54f5ff16aa058b
+                Session ID Length: 0
+                Cipher Suites Length: 6
+                Cipher Suites (3 suites)
+                    Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+                    Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+                    Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+                Compression Methods Length: 1
+                Compression Methods (1 method)
+                    Compression Method: null (0)
+                Extensions Length: 1686
+                Extension: supported_groups (len=10)
+                    Type: supported_groups (10)
+                    Length: 10
+                    Supported Groups List Length: 8
+                    Supported Groups (4 groups)
+                        Supported Group: X25519MLKEM768 (0x11ec)
+                        Supported Group: x25519 (0x001d)
+                        Supported Group: secp256r1 (0x0017)
+                        Supported Group: secp384r1 (0x0018)
+                Extension: server_name (len=23) name=www.googleapis.com
+                    Type: server_name (0)
+                    Length: 23
+                    Server Name Indication extension
+                        Server Name list length: 21
+                        Server Name Type: host_name (0)
+                        Server Name length: 18
+                        Server Name: www.googleapis.com
+                Extension: encrypted_client_hello (len=218)
+                    Type: encrypted_client_hello (65037)
+                    Length: 218
+                    Client Hello type: Outer Client Hello (0)
+                    Cipher Suite: HKDF-SHA256/AES-128-GCM
+                        KDF Id: HKDF-SHA256 (1)
+                        AEAD Id: AES-128-GCM (1)
+                    Config Id: 254
+                    Enc length: 32
+                    Enc: f2225ce19fc88cc04f8fadd687c09d82657aaeea25defac8d363dcc3fa86000e
+                    Payload length: 176
+                    Payload […]: a559a313e20d87ca50849c4b5d86f6fd4314051c2838916a4b49ee1d4bfcff4cd4483be9430cc9354888c23a1519ad64364eb971fd79e75b4452233368f3c2cba229e03c873c0d2f9f5373ece817cd12e5bd237b7d51700aea1bee436a96d66690e364ba02d07142e1ba86f19a956e58
+                Extension: psk_key_exchange_modes (len=2)
+                    Type: psk_key_exchange_modes (45)
+                    Length: 2
+                    PSK Key Exchange Modes Length: 1
+                    PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+                Extension: signature_algorithms (len=20)
+                    Type: signature_algorithms (13)
+                    Length: 20
+                    Signature Hash Algorithms Length: 18
+                    Signature Hash Algorithms (9 algorithms)
+                        Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+                            Signature Hash Algorithm Hash: SHA256 (4)
+                            Signature Hash Algorithm Signature: ECDSA (3)
+                        Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+                            Signature Hash Algorithm Hash: Unknown (8)
+                            Signature Hash Algorithm Signature: Unknown (4)
+                        Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+                            Signature Hash Algorithm Hash: SHA256 (4)
+                            Signature Hash Algorithm Signature: RSA (1)
+                        Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+                            Signature Hash Algorithm Hash: SHA384 (5)
+                            Signature Hash Algorithm Signature: ECDSA (3)
+                        Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+                            Signature Hash Algorithm Hash: Unknown (8)
+                            Signature Hash Algorithm Signature: Unknown (5)
+                        Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+                            Signature Hash Algorithm Hash: SHA384 (5)
+                            Signature Hash Algorithm Signature: RSA (1)
+                        Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+                            Signature Hash Algorithm Hash: Unknown (8)
+                            Signature Hash Algorithm Signature: Unknown (6)
+                        Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+                            Signature Hash Algorithm Hash: SHA512 (6)
+                            Signature Hash Algorithm Signature: RSA (1)
+                        Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+                            Signature Hash Algorithm Hash: SHA1 (2)
+                            Signature Hash Algorithm Signature: RSA (1)
+                Extension: compress_certificate (len=3)
+                    Type: compress_certificate (27)
+                    Length: 3
+                    Algorithms Length: 2
+                    Algorithm: brotli (2)
+                Extension: Unknown type 17613 (len=5)
+                    Type: Unknown (17613)
+                    Length: 5
+                    Data: 0003026833
+                Extension: supported_versions (len=3) TLS 1.3
+                    Type: supported_versions (43)
+                    Length: 3
+                    Supported Versions length: 2
+                    Supported Version: TLS 1.3 (0x0304)
+                Extension: key_share (len=1258) X25519MLKEM768, x25519
+                    Type: key_share (51)
+                    Length: 1258
+                    Key Share extension
+                        Client Key Share Length: 1256
+                        Key Share Entry: Group: X25519MLKEM768, Key Exchange length: 1216
+                            Group: X25519MLKEM768 (4588)
+                            Key Exchange Length: 1216
+                            Key Exchange […]: 82ba73e2073103a40ec8d4aecf24ae3082afe334c846fb9300ed92571c52ae5062a4d4334c216d42765633e892e018c9f7e60e6e0858c145640b28b33bd017dbb1a0aa35b508e243027a003f920e60784528cc0903995a32f821fea2812c67c95b60bd084a70e72368eaa23ed8f
+                        Key Share Entry: Group: x25519, Key Exchange length: 32
+                            Group: x25519 (29)
+                            Key Exchange Length: 32
+                            Key Exchange: 48587aaf071c09fbb143a4398800b54af7cb66cbe865e810fcaec41fcf28420a
+                Extension: quic_transport_parameters (len=95)
+                    Type: quic_transport_parameters (57)
+                    Length: 95
+                    Parameter: initial_source_connection_id (len=0)
+                        Type: initial_source_connection_id (0x0f)
+                        Length: 0
+                        Value: <MISSING>
+                        Initial Source Connection ID: <MISSING>
+                    Parameter: initial_max_streams_bidi (len=2) 100
+                        Type: initial_max_streams_bidi (0x08)
+                        Length: 2
+                        Value: 4064
+                        initial_max_streams_bidi: 100
+                    Parameter: initial_max_stream_data_bidi_remote (len=4) 6291456
+                        Type: initial_max_stream_data_bidi_remote (0x06)
+                        Length: 4
+                        Value: 80600000
+                        initial_max_stream_data_bidi_remote: 6291456
+                    Parameter: initial_max_streams_uni (len=2) 103
+                        Type: initial_max_streams_uni (0x09)
+                        Length: 2
+                        Value: 4067
+                        initial_max_streams_uni: 103
+                    Parameter: max_idle_timeout (len=4) 30000 ms
+                        Type: max_idle_timeout (0x01)
+                        Length: 4
+                        Value: 80007530
+                        max_idle_timeout: 30000
+                    Parameter: initial_max_data (len=4) 15728640
+                        Type: initial_max_data (0x04)
+                        Length: 4
+                        Value: 80f00000
+                        initial_max_data: 15728640
+                    Parameter: google_quic_version (len=4)
+                        Type: google_quic_version (0x4752)
+                        Length: 4
+                        Value: 00000001
+                        Google QUIC version: 1 (0x00000001)
+                    Parameter: initial_max_stream_data_uni (len=4) 6291456
+                        Type: initial_max_stream_data_uni (0x07)
+                        Length: 4
+                        Value: 80600000
+                        initial_max_stream_data_uni: 6291456
+                    Parameter: GREASE (len=13)
+                        Type: GREASE (0x152def2bedc5a91f)
+                        Length: 13
+                        Value: d2ae941b997e92ca5cb2bcf728
+                    Parameter: initial_max_stream_data_bidi_local (len=4) 6291456
+                        Type: initial_max_stream_data_bidi_local (0x05)
+                        Length: 4
+                        Value: 80600000
+                        initial_max_stream_data_bidi_local: 6291456
+                    Parameter: version_information (len=12)
+                        Type: version_information (0x11)
+                        Length: 12
+                        Value: 000000017aaada0a00000001
+                        Chosen Version: 1 (0x00000001)
+                        Other Version: Unknown (0x7aaada0a) (GREASE)
+                        Other Version: 1 (0x00000001)
+                    Parameter: max_datagram_frame_size (len=4) 65536
+                        Type: max_datagram_frame_size (0x20)
+                        Length: 4
+                        Value: 80010000
+                        max_datagram_frame_size: 65536
+                    Parameter: max_udp_payload_size (len=2) 1472
+                        Type: max_udp_payload_size (0x03)
+                        Length: 2
+                        Value: 45c0
+                        max_udp_payload_size: 1472
+                Extension: application_layer_protocol_negotiation (len=5)
+                    Type: application_layer_protocol_negotiation (16)
+                    Length: 5
+                    ALPN Extension Length: 3
+                    ALPN Protocol
+                        ALPN string length: 2
+                        ALPN Next Protocol: h3
+                [JA4: q13d0311h3_55b375c5d22e_653d80c3fe9d]
+                [JA4_r: q13d0311h3_1301,1302,1303_000a,000d,001b,002b,002d,0033,0039,44cd,fe0d_0403,0804,0401,0503,0805,0501,0806,0601,0201]
+                [JA3 Fullstring: 771,4865-4866-4867,10-0-65037-45-13-27-17613-43-51-57-16,4588-29-23-24,]
+                [JA3: ad4e4fbc6551d3c673008ab8eea2d929]
+    PADDING Length: 39
+        Frame Type: PADDING (0x0000000000000000)
+        [Padding Length: 39]
+    PING
+        Frame Type: PING (0x0000000000000001)
+
+No.     Time           Source                Destination           Protocol Length ALPN Next Protocol Server Name Info
+    566 62.152203      192.168.31.185        192.168.31.1          DNS      93                                    Standard query 0x3ddb A generativelanguage.googleapis.com
+
+Frame 566: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 31, 2025 12:49:14.030389000 CST
+    UTC Arrival Time: Aug 31, 2025 04:49:14.030389000 UTC
+    Epoch Arrival Time: 1756615754.030389000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.287215000 seconds]
+    [Time delta from previous displayed frame: 5.371679000 seconds]
+    [Time since reference or first frame: 62.152203000 seconds]
+    Frame Number: 566
+    Frame Length: 93 bytes (744 bits)
+    Capture Length: 93 bytes (744 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: Apple_77:27:8e (08:f8:bc:77:27:8e), Dst: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7)
+    Destination: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Apple_77:27:8e (08:f8:bc:77:27:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 192.168.31.185, Dst: 192.168.31.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 79
+    Identification: 0x0000 (0)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x7a93 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.31.185
+    Destination Address: 192.168.31.1
+    [Stream index: 10]
+User Datagram Protocol, Src Port: 53584, Dst Port: 53
+    Source Port: 53584
+    Destination Port: 53
+    Length: 59
+    Checksum: 0x0f26 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 13]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (51 bytes)
+Domain Name System (query)
+    Transaction ID: 0x3ddb
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        generativelanguage.googleapis.com: type A, class IN
+            Name: generativelanguage.googleapis.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    [Response In: 567]
+
+No.     Time           Source                Destination           Protocol Length ALPN Next Protocol Server Name Info
+    567 62.166679      192.168.31.1          192.168.31.185        DNS      157                                   Standard query response 0x3ddb A generativelanguage.googleapis.com A 142.250.77.10 A 142.250.196.202 A 142.250.204.42 A 142.250.198.74
+
+Frame 567: 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 31, 2025 12:49:14.044865000 CST
+    UTC Arrival Time: Aug 31, 2025 04:49:14.044865000 UTC
+    Epoch Arrival Time: 1756615754.044865000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.014476000 seconds]
+    [Time delta from previous displayed frame: 0.014476000 seconds]
+    [Time since reference or first frame: 62.166679000 seconds]
+    Frame Number: 567
+    Frame Length: 157 bytes (1256 bits)
+    Capture Length: 157 bytes (1256 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7), Dst: Apple_77:27:8e (08:f8:bc:77:27:8e)
+    Destination: Apple_77:27:8e (08:f8:bc:77:27:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 192.168.31.1, Dst: 192.168.31.185
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 143
+    Identification: 0xc23f (49727)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xb813 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.31.1
+    Destination Address: 192.168.31.185
+    [Stream index: 10]
+User Datagram Protocol, Src Port: 53, Dst Port: 53584
+    Source Port: 53
+    Destination Port: 53584
+    Length: 123
+    Checksum: 0x1a3d [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 13]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 0.014476000 seconds]
+        [Time since previous frame: 0.014476000 seconds]
+    UDP payload (115 bytes)
+Domain Name System (response)
+    Transaction ID: 0x3ddb
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 4
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        generativelanguage.googleapis.com: type A, class IN
+            Name: generativelanguage.googleapis.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    Answers
+        generativelanguage.googleapis.com: type A, class IN, addr 142.250.77.10
+            Name: generativelanguage.googleapis.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 253 (4 minutes, 13 seconds)
+            Data length: 4
+            Address: 142.250.77.10
+        generativelanguage.googleapis.com: type A, class IN, addr 142.250.196.202
+            Name: generativelanguage.googleapis.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 253 (4 minutes, 13 seconds)
+            Data length: 4
+            Address: 142.250.196.202
+        generativelanguage.googleapis.com: type A, class IN, addr 142.250.204.42
+            Name: generativelanguage.googleapis.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 253 (4 minutes, 13 seconds)
+            Data length: 4
+            Address: 142.250.204.42
+        generativelanguage.googleapis.com: type A, class IN, addr 142.250.198.74
+            Name: generativelanguage.googleapis.com
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+            Time to live: 253 (4 minutes, 13 seconds)
+            Data length: 4
+            Address: 142.250.198.74
+    [Request In: 566]
+    [Time: 0.014476000 seconds]
+
+No.     Time           Source                Destination           Protocol Length ALPN Next Protocol Server Name Info
+    568 62.190333      192.168.31.185        192.168.31.1          DNS      93                                    Standard query 0x2387 AAAA generativelanguage.googleapis.com
+
+Frame 568: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 31, 2025 12:49:14.068519000 CST
+    UTC Arrival Time: Aug 31, 2025 04:49:14.068519000 UTC
+    Epoch Arrival Time: 1756615754.068519000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.023654000 seconds]
+    [Time delta from previous displayed frame: 0.023654000 seconds]
+    [Time since reference or first frame: 62.190333000 seconds]
+    Frame Number: 568
+    Frame Length: 93 bytes (744 bits)
+    Capture Length: 93 bytes (744 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: Apple_77:27:8e (08:f8:bc:77:27:8e), Dst: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7)
+    Destination: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Apple_77:27:8e (08:f8:bc:77:27:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 192.168.31.185, Dst: 192.168.31.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 79
+    Identification: 0x0000 (0)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0x7a93 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.31.185
+    Destination Address: 192.168.31.1
+    [Stream index: 10]
+User Datagram Protocol, Src Port: 59648, Dst Port: 53
+    Source Port: 59648
+    Destination Port: 53
+    Length: 59
+    Checksum: 0xf6c9 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 14]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (51 bytes)
+Domain Name System (query)
+    Transaction ID: 0x2387
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        generativelanguage.googleapis.com: type AAAA, class IN
+            Name: generativelanguage.googleapis.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+    [Response In: 569]
+
+No.     Time           Source                Destination           Protocol Length ALPN Next Protocol Server Name Info
+    569 62.203737      192.168.31.1          192.168.31.185        DNS      205                                   Standard query response 0x2387 AAAA generativelanguage.googleapis.com AAAA 2404:6800:4012:9::200a AAAA 2404:6800:4012:8::200a AAAA 2404:6800:4012:6::200a AAAA 2404:6800:4012:5::200a
+
+Frame 569: 205 bytes on wire (1640 bits), 205 bytes captured (1640 bits) on interface en0, id 0
+    Section number: 1
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Aug 31, 2025 12:49:14.081923000 CST
+    UTC Arrival Time: Aug 31, 2025 04:49:14.081923000 UTC
+    Epoch Arrival Time: 1756615754.081923000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 0.013404000 seconds]
+    [Time delta from previous displayed frame: 0.013404000 seconds]
+    [Time since reference or first frame: 62.203737000 seconds]
+    Frame Number: 569
+    Frame Length: 205 bytes (1640 bits)
+    Capture Length: 205 bytes (1640 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7), Dst: Apple_77:27:8e (08:f8:bc:77:27:8e)
+    Destination: Apple_77:27:8e (08:f8:bc:77:27:8e)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: XiaomiMobile_cc:40:a7 (4c:c6:4c:cc:40:a7)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 192.168.31.1, Dst: 192.168.31.185
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 191
+    Identification: 0xc240 (49728)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xb7e2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.31.1
+    Destination Address: 192.168.31.185
+    [Stream index: 10]
+User Datagram Protocol, Src Port: 53, Dst Port: 59648
+    Source Port: 53
+    Destination Port: 59648
+    Length: 171
+    Checksum: 0x76b3 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 14]
+    [Stream Packet Number: 2]
+    [Timestamps]
+        [Time since first frame: 0.013404000 seconds]
+        [Time since previous frame: 0.013404000 seconds]
+    UDP payload (163 bytes)
+Domain Name System (response)
+    Transaction ID: 0x2387
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 4
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        generativelanguage.googleapis.com: type AAAA, class IN
+            Name: generativelanguage.googleapis.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+    Answers
+        generativelanguage.googleapis.com: type AAAA, class IN, addr 2404:6800:4012:9::200a
+            Name: generativelanguage.googleapis.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 30 (30 seconds)
+            Data length: 16
+            AAAA Address: 2404:6800:4012:9::200a
+        generativelanguage.googleapis.com: type AAAA, class IN, addr 2404:6800:4012:8::200a
+            Name: generativelanguage.googleapis.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 30 (30 seconds)
+            Data length: 16
+            AAAA Address: 2404:6800:4012:8::200a
+        generativelanguage.googleapis.com: type AAAA, class IN, addr 2404:6800:4012:6::200a
+            Name: generativelanguage.googleapis.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 30 (30 seconds)
+            Data length: 16
+            AAAA Address: 2404:6800:4012:6::200a
+        generativelanguage.googleapis.com: type AAAA, class IN, addr 2404:6800:4012:5::200a
+            Name: generativelanguage.googleapis.com
+            Type: AAAA (28) (IP6 Address)
+            Class: IN (0x0001)
+            Time to live: 30 (30 seconds)
+            Data length: 16
+            AAAA Address: 2404:6800:4012:5::200a
+    [Request In: 568]
+    [Time: 0.013404000 seconds]
